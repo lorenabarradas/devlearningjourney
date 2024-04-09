@@ -1,5 +1,3 @@
-# Introdução à Programação Orientada a Objetos com JavaScript
-
 ## Referências
 
 [[Introdução à POO com JS] Aula 01 - Apresentação do Curso](https://www.youtube.com/watch?v=KNZQsRXJPgY&list=PLjbgOM5FYMGijPskfY-dF4uR_vpQDjRk9)
@@ -46,19 +44,19 @@ Em resumo, a POO é uma abordagem poderosa para desenvolver software, que oferec
 ## Conceitos Resumidos
 
 - **Explorando Conceitos de POO: Superclasse, Subclasse e Polimorfismo**
-    1. **Superclasse:**
+    - **Superclasse:**
         - Definição: Classe mais genérica ou abstrata que pode ter uma ou mais subclasses. Fornece características comuns compartilhadas pelas subclasses.
         - Exemplo: Classe **`Veículo`** com subclasses como **`Carro`**, **`Moto`** e **`Caminhão`**.
         - Implementação em código: Define-se a superclasse primeiro e depois as subclasses herdam suas características.
-    2. **Classes com o Mesmo Nome:**
+    - **Classes com o Mesmo Nome:**
         - Definição: Classes que podem coexistir em diferentes espaços de nomes ou contextos sem interferir uma na outra.
         - Exemplo: Duas classes **`Pessoa`** em diferentes arquivos JS, cada uma em seu próprio escopo.
         - Implementação em código: Usa-se diferentes espaços de nomes, como módulos ES6, para evitar conflitos.
-    3. **Subclasse:**
+    - **Subclasse:**
         - Definição: Classe mais específica que herda características de uma superclasse mais genérica.
         - Exemplo: Classe **`Cachorro`** que herda de **`Animal`**, adicionando comportamentos específicos.
         - Implementação em código: Subclasses herdam atributos e métodos da superclasse e podem adicionar novos ou substituir existentes.
-    4. **Interagindo com a Superclasse:**
+    - **Interagindo com a Superclasse:**
         - Subclasses herdam todos os atributos e métodos da superclasse e podem acessá-los diretamente.
         - Podem adicionar novos comportamentos ou substituir comportamentos existentes definidos na superclasse.
 - **Conceito de Abstração e Instância em Programação Orientada a Objetos (POO)**
@@ -152,24 +150,24 @@ Em resumo, a POO é uma abordagem poderosa para desenvolver software, que oferec
     Interfaces em POO são uma ferramenta poderosa para garantir consistência nos comportamentos das classes, promovendo modularidade, reutilização de código e flexibilidade no design de software.
     
 - **Outros Conceitos em Programação Orientada a Objetos (POO)**
-    1. **Métodos e Propriedades Estáticas:**
+    - **Métodos e Propriedades Estáticas:**
         - São elementos pertencentes à classe como um todo, não às instâncias individuais da classe.
         - Permitem acessar diretamente através do nome da classe.
         - Úteis para implementar funcionalidades independentes do estado da instância.
-    2. **Interfaces vs. Classes Abstratas:**
+    - **Interfaces vs. Classes Abstratas:**
         - **Interfaces:**
             - Definem apenas a assinatura dos métodos que as classes devem implementar.
         - **Classes Abstratas:**
             - Podem conter métodos concretos além de métodos abstratos.
             - Oferecem uma implementação padrão para um conjunto de métodos em comum.
-    3. **Tratamento de Exceções:**
+    - **Tratamento de Exceções:**
         - Importante prática para lidar com situações excepcionais ou erros durante a execução do programa.
         - Envolve captura e tratamento de exceções usando construções como try-catch-finally.
-    4. **Padrões de Projeto:**
+    - **Padrões de Projeto:**
         - Soluções comprovadas para problemas recorrentes de design de software.
         - Exemplos incluem Singleton, Factory, Observer, entre outros.
         - Melhoram a qualidade e a manutenibilidade do código.
-    5. **SOLID:**
+    - **SOLID:**
         - Acrônimo representando cinco princípios importantes de design de software:
             - **S - Single Responsibility Principle**
             - **O - Open/Closed Principle**
